@@ -6,12 +6,25 @@ class Home extends BaseController
 {
     public function index()
     {
-         return view('welcome_message');
+        return view('home');
     }
-
-
-    public function coba()
+    public function event()
     {
-        echo "Hello World!";
+        return view('event');
     }
+    public function register()
+    {
+        return view('register');
+    }
+    
+    public function adddaftar()
+    {
+        return view ('addregister');
+    } 
+    public function editregis()
+    {
+        return view ('editregis');
+    } 
 }
+   
+     
