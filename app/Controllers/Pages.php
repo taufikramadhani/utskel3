@@ -301,5 +301,5 @@ class Pages extends BaseController
                 ]);
                 session()->setFlashdata('pesan', 'Data Berhasil Diubah');
                 return redirect()->to('/pages/event');
+            
             }
-        
